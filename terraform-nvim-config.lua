@@ -7,7 +7,7 @@ end
 
 -- Packer Configuration
 require('packer').startup(function(use)
-    use 'hashivim/vim-terraform'
+    use 'vim-terraform'
 
     -- Add more plugins as needed
 end)
