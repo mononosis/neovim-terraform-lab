@@ -1,2 +1,2 @@
-# neovim-terraform-lab
+# nvim-terraform-config
 Neovim configs for terraform
