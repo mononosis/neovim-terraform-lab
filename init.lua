@@ -22,7 +22,6 @@ lspconfig.terraformls.setup {
 	handlers = {
 		-- Custom handlers for language server events
 	},
-
 	capabilities = capabilities,
 
 }
@@ -34,5 +33,6 @@ lspconfig.tflint.setup {
 	root_dir = lspconfig.util.root_pattern(".terraform", "*.tf"),
 	flags = {
 		debounce_text_changes = 150,
-	}
+	},
+	capabilities = capabilities,
 }
