@@ -1,5 +1,4 @@
-vim.cmd('set background=dark')  -- Set background to dark
-vim.cmd('colorscheme morning')     -- Use a colorscheme that emphasizes blue tones
+vim.cmd('colorscheme cyberpunk')     -- Use a colorscheme that emphasizes blue tones
 -- Add any other Terraform-specific configurations here
 
 local lspconfig = require('lspconfig')
