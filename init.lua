@@ -1,4 +1,4 @@
-vim.cmd('colorscheme cyberpunk') -- Use a colorscheme that emphasizes blue tones
+vim.cmd('colorscheme silverhand') -- Use a colorscheme that emphasizes blue tones
 -- Add any other Terraform-specific configurations here
 
 local lspconfig = require('lspconfig')
@@ -22,7 +22,8 @@ lspconfig.terraformls.setup {
 	handlers = {
 		-- Custom handlers for language server events
 	},
-	--capabilities = capabilities,
+
+	capabilities = capabilities,
 
 }
 
