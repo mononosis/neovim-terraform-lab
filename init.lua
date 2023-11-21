@@ -19,6 +19,8 @@ lspconfig.terraformls.setup{
     handlers = {
         -- Custom handlers for language server events
     },
+    capabilities = capabilities,
+
 }
 
 -- Tflint setup remains the same
