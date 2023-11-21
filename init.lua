@@ -19,7 +19,7 @@ lspconfig.terraformls.setup{
     handlers = {
         -- Custom handlers for language server events
     },
-    capabilities = capabilities,
+    capabilities = apabilities,
 
 }
 
